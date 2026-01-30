@@ -1,6 +1,6 @@
-Gym Website – Fitness Management System (HTML, CSS, JavaScript,php)
+Gym Website – Fitness Management System (HTML, CSS, JavaScript,PhP, My Sql)
 
-Developed a responsive gym website using HTML, CSS, and JavaScript,php.
+Developed a responsive gym website using HTML, CSS, and JavaScript,php,My Sql.
 
 Included sections for membership plans, trainers, workout programs, and contact information.
 
