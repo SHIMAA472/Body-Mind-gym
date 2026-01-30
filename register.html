@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="GymFit registration page">
+  <meta name="theme-name" content="gymfit" />
+  <meta name="author" content="Themefisher.com">
+  <title>Body Mind | Register</title>
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ======= NAVBAR ======= -->
+ <nav class="navbar navbar-expand-lg navigation fixed-top" id="navbar">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="index.html">
+			<h2 class="text-white text-capitalize"></i>Body Mind<span class="text-color">GYm</span></h2>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsid"
+			aria-controls="navbarsid" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="ti-view-list"></span>
+		</button>
+		<div class="collapse text-center navbar-collapse" id="navbarsid">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">Pages</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="about.html">About</a></li>
+						<li><a class="dropdown-item" href="trainer.html">Trainer</a></li>
+						<li><a class="dropdown-item" href="course.html">Courses</a></li>
+                        <li><a class="dropdown-item" href="supplements.html">Supplements</a></li>
+                        <li><a class="dropdown-item" href="nutrition.html">Nutrition</a></li>
+                        <li><a class="dropdown-item" href="physio.html">Physiotherapy</a></li>
+                    </ul>
+             </li>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+				<li class="nav-item"><a class="nav-link" href="pricing.html">Memebership</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">Blog</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="blog.html">Blog Grid</a></li>
+						<li><a class="dropdown-item" href="blog-sidebar.html">Blog Sidebar</a></li>
+						<li><a class="dropdown-item" href="blog-single.html">Blog Details</a></li>
+					</ul>
+                    <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+
+				</li>
+				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+			<div class="my-md-0 ml-lg-4 mt-4 mt-lg-0 ml-auto text-lg-right mb-3 mb-lg-0">
+				<a href="tel:+23-345-67890">
+					<h3 class="text-color mb-0"><i class="ti-mobile mr-2"></i>+970 59 486 9725</h3>
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+  <!-- ======= REGISTER ======= -->
+  <section class="section pt-120" style="min-height:80vh;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+          <div class="card shadow border-0 p-4">
+            <h3 class="mb-4 text-center">Create Account</h3>
+            <form id="registerForm" novalidate>
+              <div class="form-group">
+                <label for="roleReg">Register as</label>
+                <select class="form-control" id="roleReg" required>
+                  <option value="" disabled selected>Select role</option>
+                  <option value="trainer">Trainer</option>
+                  <option value="trainee">Trainee</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="emailReg">Email address</label>
+                <input type="email" class="form-control" id="emailReg" placeholder="name@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="passwordReg">Password</label>
+                <input type="password" class="form-control" id="passwordReg" placeholder="Password" required>
+              </div>
+              <div class="form-group">
+                <label for="confirmPass">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmPass" placeholder="Repeat password" required>
+              </div>
+              <button type="submit" class="btn btn-main btn-block">Register</button>
+              <div id="regSuccess" class="alert alert-success mt-3 d-none" role="alert">Registration successful! You can now <a href="login.html" class="text-white text-underline">login</a>.</div>
+            </form>
+            <p class="mt-3 text-center">Already have an account? <a href="login.html" class="text-color font-weight-bold">Log in</a></p>
+            <div class="text-center mt-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer bg-black-50">
+    <div class="container">
+      <div class="row align-items-center mt-5 px-3 bg-black mx-1">
+        <div class="col text-center">
+          <p class="text-white mt-3 mb-0">Body Mind Gym © 2025</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======= SCRIPTS ======= -->
+  <script src="plugins/jquery/jquery.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script>
+    // ----- REGISTER LOGIC WITH LOCAL STORAGE -----
+    (() => {
+      'use strict';
+      const form = document.getElementById('registerForm');
+      const alertBox = document.getElementById('regSuccess');
+
+      const getUsers = () => JSON.parse(localStorage.getItem('bm_users') || '[]');
+      const setUsers = users => localStorage.setItem('bm_users', JSON.stringify(users));
+
+      form.addEventListener('submit', e => {
+        const pass = document.getElementById('passwordReg');
+        const confirm = document.getElementById('confirmPass');
+
+        if (pass.value !== confirm.value) {
+          confirm.setCustomValidity('Passwords do not match');
+        } else {
+          confirm.setCustomValidity('');
+        }
+
+        if (!form.checkValidity()) {
+          e.preventDefault();
+          e.stopPropagation();
+        } else {
+          e.preventDefault();
+          const users = getUsers();
+          users.push({
+            role: document.getElementById('roleReg').value,
+            fullName: document.getElementById('fullName').value.trim(),
+            email: document.getElementById('emailReg').value.trim(),
+            password: pass.value
+          });
+          setUsers(users);
+          alertBox.classList.remove('d-none');
+          form.reset();
+          form.classList.remove('was-validated');
+        }
+        form.classList.add('was-validated');
+      });
+    })();
+  </script>
+  <!-- footer Start -->
+<footer class="footer bg-black-50">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+				<h2 class="text-white mb-4">Body Mind</h2>
+				<p>Body Mind was founded in 2020 to be more than just a gym, but a holistic center that cares for your body and mind. Our vision is to balance strength and mental health through an integrated experience that encompasses exercise, nutrition, and wellness.</p>
+
+				<p>Our goal We aim to empower you to reach the best version of yourself.</p>
+			</div>
+			
+
+			<div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+				<div class="footer-widget recent-blog">
+					<h4 class="mb-4 text-white letter-spacing text-uppercase">Recents Posts</h4>
+					<div>
+						<a href="blog-single.html"class="text-white">Claritas est etiam processus dynamicus</a>
+						<p class="text-sm mt-2 text-white-50">30 february 2020</p>
+					</div>
+					<div class="mt-4">
+						<a href="blog-single.html"class="text-white">Claritas est etiam processus dynamicus</a>
+						<p class="text-sm mt-2 text-white-50">30 february 2020</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-5 mb-5 mb-lg-0">
+				<div class="footer-widget">
+					<h4 class="mb-4 text-white letter-spacing text-uppercase">Quick Links</h4>
+					<ul class="list-unstyled footer-menu lh-40 mb-0">
+						<li><a href="about.html"><i class="ti-angle-double-right mr-2"></i>About Us</a></li>
+						<li><a href="service.html"><i class="ti-angle-double-right mr-2"></i>Services</a></li>
+						<li><a href="pricing.html"><i class="ti-angle-double-right mr-2"></i>Membership</a></li>
+						<li><a href="course.html"><i class="ti-angle-double-right mr-2"></i>Courses</a></li>
+						<li><a href="contact.html"><i class="ti-angle-double-right mr-2"></i>Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-5">
+				<div class="footer-widget">
+					<h4 class="mb-4 text-white letter-spacing text-uppercase">Home location</h4>
+					<p>Palestine - Nablus</p>
+					<span class="text-white">+970 59 486 9725</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row align-items-center mt-5 px-3 bg-black mx-1">
+			<div class="col-lg-4">
+				<p class="text-white mt-3">Body Mind Gym © 2020 </p>
+			</div>
+			<div class="col-lg-6 ml-auto text-right">
+				<ul class="list-inline mb-0 footer-socials">
+					<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="ti-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="ti-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- Section Footer End -->
+
+<!-- Section Footer Scripts -->
+   </div>
+
+   <!-- 
+    Essential Scripts
+    =====================================-->
+
+
+   <!-- Main jQuery -->
+   <script src="plugins/jquery/jquery.js"></script>
+   <!-- Bootstrap 4.3.1 -->
+   <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+   <!-- Slick Slider -->
+   <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+   <!--  Magnific Popup-->
+   <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+   <!-- Form Validator -->
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+   <!-- Google Map -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+   <script src="plugins/google-map/gmap.js"></script>
+
+   <script src="js/script.js"></script>
+</body>
+</html>
+
